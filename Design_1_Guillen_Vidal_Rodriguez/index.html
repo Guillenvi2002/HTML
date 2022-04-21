@@ -3,34 +3,90 @@
    <head>
     <title>Dise&ntilde;o 1 Guill&eacute;n Vidal</title>
     <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    </head>
-    <nav>
+    <nav class="navbar">
         <div class="contenedor_nav">
             <div class="contenedor2_nav">
                 <a>
-                    <label class="logo"><img width="50" height="50" src="img/Logo_Disagaming.png" alt="Logo_DISAGAMING" />
+                    <label class="logo"><img width="30" height="30" src="img/Logo_Disagaming.png" alt="Logo_DISAGAMING" />
                         CSSWORKSHOP
                     </label>
                 </a>
-                <ul class="lista_nav">
-                    <li><a href="index.html" id="navlink1">Home</a></li>
-                    <li><a href="#" id="navlink2">About</a></li>
-                    <li><a href="#" id="navlink3">Sponsors</a></li>
+                <input type="checkbox" id="checkbox_toggle" />
+                <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+                <ul class="menu" id="myTopNav">
+                    <li><a href="#home" id="navlink1">Home</a></li>
+                    <li><a href="#about" id="navlink2">About</a></li>
+                    <li><a href="#sponsors" id="navlink3">Sponsors</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <section class="section1">
-        <img width="50" height="50" src="img/Logo_Disagaming.png" alt="Logo_DISAGAMING" />
-        <h1>THE CSS WORKSHOP FOR FULLSTACKS</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent condimentum iaculis ante, vitae elementum quam rutrum quis. Vestibulum condimentum erat odio, non consequat augue sollicitudin quis. Sed varius ligula fringilla quam pellentesque, bibendum viverra nunc aliquam. Vivamus vitae massa nisl. Donec augue nunc, volutpat vel sagittis sed, finibus a sem. Duis ut tincidunt leo. Cras non tincidunt turpis. Nunc nibh ligula, pellentesque non urna id, congue pretium ex. Sed vitae ante ultrices, facilisis neque at, sagittis orci. Praesent sollicitudin sapien eu dolor semper tincidunt. </p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent condimentum iaculis ante, vitae elementum quam rutrum quis. Vestibulum condimentum erat odio, non consequat augue sollicitudin quis. Sed varius ligula fringilla quam pellentesque, bibendum viverra nunc aliquam. Vivamus vitae massa nisl. Donec augue nunc, volutpat vel sagittis sed, finibus a sem. Duis ut tincidunt leo. Cras non tincidunt turpis. Nunc nibh ligula, pellentesque non urna id, congue pretium ex. Sed vitae ante ultrices, facilisis neque at, sagittis orci. Praesent sollicitudin sapien eu dolor semper tincidunt. </p>
+    <body>
+    <section class="section1" id="home">
+        <img width="150" height="150" src="img/Logo_Disagaming.png" alt="Logo_DISAGAMING" />
+        <header>THE CSS WORKSHOP FOR FULLSTACKS</header>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent condimentum iaculis ante, vitae elementum quam rutrum quis. Vestibulum condimentum erat odio, non consequat augue sollicitudin quis. Duis ut tincidunt leo. Cras non tincidunt turpis. Nunc nibh ligula, pellentesque non urna id, congue pretium ex. Sed vitae ante ultrices, facilisis neque at, sagittis orci. Praesent sollicitudin sapien eu dolor semper tincidunt. </p><br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent condimentum iaculis ante, vitae elementum quam rutrum quis. Vestibulum condimentum erat odio, non consequat augue sollicitudin quis. Duis ut tincidunt leo. Cras non tincidunt turpis. Nunc nibh ligula, pellentesque non urna id, congue pretium ex. Sed vitae ante ultrices, facilisis neque at, sagittis orci. Praesent sollicitudin sapien eu dolor semper tincidunt. </p>
     </section>
-    <section class="section2">
+    <section class="section2" id="about">
         <header>ABOUT THE WORKSHOP</header>
+        <div class="parrafo">
+            <div class="imgLeft">
+                <img width="80" height="80" src="img/Logo_Disagaming.png" alt="Logo_DISAGAMING" />
+            </div>
+            <p class="left" id="titulo1">TIPS AND TRICKS</p>
+            <p class="left">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+            Praesent condimentum iaculis ante, vitae elementum quam rutrum quis.<br>
+            Vestibulum condimentum erat odio, non consequat augue sollicitudin quis.</p> 
+        </div>
+        <div class="parrafo">
+            <div class="imgRight">
+                <img width="80" height="80" src="img/Logo_Disagaming.png" alt="Logo_DISAGAMING" />
+            </div>
+            <p class="right" id="titulo2">TRAINING</p>
+            <p class="right">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+            Praesent condimentum iaculis ante, vitae elementum quam rutrum quis.<br>
+            Vestibulum condimentum erat odio, non consequat augue sollicitudin quis.</p> 
+        </div>
+        <div class="parrafo">
+            <div class="imgLeft">
+                <img width="80" height="80" src="img/Logo_Disagaming.png" alt="Logo_DISAGAMING" />
+            </div>
+            <p class="left" id="titulo3">FUNNY</p>
+            <p class="left">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+            Praesent condimentum iaculis ante, vitae elementum quam rutrum quis.<br>
+            Vestibulum condimentum erat odio, non consequat augue sollicitudin quis.</p> 
+        </div>
+        <div class="parrafo">
+            <div class="imgRight">
+                <img width="80" height="80" src="img/Logo_Disagaming.png" alt="Logo_DISAGAMING" />
+            </div>
+            <p class="right" id="titulo4">VALUABLE</p>
+            <p class="right">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+            Praesent condimentum iaculis ante, vitae elementum quam rutrum quis.<br>
+            Vestibulum condimentum erat odio, non consequat augue sollicitudin quis.</p> 
+        </div>
     </section>
-    <section class="section3">
+    <section class="section3" id="sponsors">
+        <header>SPONSORS</header>
 
+        <div class="grid">
+            <div id="a">ACME CO</div>
+            <div id="b">ACME</div>
+            <div id="c">ACME</div>
+            <div id="d">ACME</div>
+            <div id="e">ACME CO</div>
+            <div id="f">ACME</div>
+            <div id="g">ACME CO</div>
+            <div id="h">ACME</div>
+            <div id="i">ACME</div>
+            <div id="j">ACME CO</div>
+        </div>
     </section>
+    <footer>
+        <p>@2022</p>
+    </footer>
    </body>
 </html>
